@@ -37,7 +37,9 @@ arrayTeamsFootball.forEach((element) => {
 
 //nuovo array
 const result = arrayTeamsFootball.map((arrayTeamsFootball) => {
+    //destrutturazione
     const { team, falliSubiti } = arrayTeamsFootball;
+    //sintatic sugar sugli oggetti
     return {
         team,
         falliSubiti
